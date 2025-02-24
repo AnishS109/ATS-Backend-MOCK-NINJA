@@ -28,4 +28,4 @@ if uploaded_file is not None:
         for feedback in data["sentence_feedback"]:
             st.warning(feedback)
     else:
-        st.error("Error processing resume.")
+        st.error('Error processing resume.')
