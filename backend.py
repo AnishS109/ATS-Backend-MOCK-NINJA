@@ -8,48 +8,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Comprehensive keyword list
-keywords = [
-    # Programming Languages
-    "python", "java", "c", "c++", "c#", "javascript", "typescript", "go", "rust", "ruby", "swift", "kotlin", "php", 
-    "r", "matlab", "scala", "perl", "dart", "objective-c",
-
-    # Web Development (Frontend)
-    "html", "css", "javascript", "typescript", "react", "angular", "vue.js", "svelte", "next.js", "nuxt.js", "tailwind css", "bootstrap",
-
-    # Web Development (Backend)
-    "node.js", "express.js", "django", "flask", "fastapi", "spring boot", "ruby on rails", "asp.net", "gin", "fiber",
-
-    # Databases
-    "sql", "mysql", "postgresql", "mongodb", "redis", "oracle", "sqlite", "mariadb", "cassandra", "dynamodb", "neo4j", "couchdb", "firebase",
-
-    # DevOps & Cloud Platforms
-    "aws", "azure", "google cloud", "docker", "kubernetes", "terraform", "ansible", "jenkins", "github actions", "travis ci", "circleci", "helm",
-
-    # Data Science & Machine Learning
-    "machine learning", "deep learning", "data science", "nlp", "computer vision", "opencv", "tensorflow", "keras", "pytorch", "scikit-learn", 
-    "xgboost", "lightgbm", "pandas", "numpy", "matplotlib", "seaborn", "huggingface", "transformers",
-
-    # AI & Big Data
-    "big data", "hadoop", "spark", "hive", "hdfs", "kafka", "elasticsearch", "flink", "airflow", "databricks",
-
-    # Cybersecurity
-    "ethical hacking", "penetration testing", "cryptography", "security analysis", "wireshark", "metasploit", "kali linux", "nmap", "burp suite",
-
-    # Mobile App Development
-    "android", "ios", "flutter", "react native", "swift", "kotlin", "xamarin", "cordova", "ionic",
-
-    # API & Web Technologies
-    "rest api", "graphql", "soap", "json", "xml", "grpc", "websocket",
-
-    # Testing & Automation
-    "selenium", "cypress", "junit", "pytest", "mocha", "chai", "jest", "robot framework", "postman",
-
-    # Blockchain & Web3
-    "blockchain", "ethereum", "solidity", "web3.js", "truffle", "hardhat", "nft", "decentralized finance", "polygon", "binance smart chain",
-
-    # Other Technologies
-    "git", "github", "gitlab", "bitbucket", "linux", "bash scripting", "zsh", "vim", "ansible", "puppet", "chef", "grafana", "prometheus"
-]
+keywords = ["python", "machine learning", "data science", "sql", "react", "django", "java", "deep learning", "api",
+            "aws", "tensorflow", "nlp"]
 
 # Resume sections expected
 sections = ["education", "experience", "projects", "skills", "certifications", "summary"]
